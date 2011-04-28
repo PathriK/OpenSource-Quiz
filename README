@@ -1,8 +1,11 @@
 OpenSource Quiz
 
+A simple J2EE application for conducting an online quiz. Put all your questions in the XML files. OpenSource Quiz will pick the questions randomly.
+Requires Apache Tomcat server.
+
 This was a quiz web application developed for conducting an online quiz at college under Gyan - The Collective Learning, JSSATE OSUM (http://osum.sun.com/group/jssate).
 Visit http://osum.sun.com/profiles/blogs/opensource-quiz.
 
 This application was later customized to conduct another quiz in our college: http://osum.sun.com/profiles/blogs/placement-igi.
 
-OpenSource Quiz was my first web application developed in October 2009. It uses the Apache Tomcat server.
+OpenSource Quiz was my first web application developed in October 2009.
