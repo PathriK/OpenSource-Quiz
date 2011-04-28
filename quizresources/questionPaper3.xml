@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE questionPaperDTD
+[
+	<!ELEMENT QuestionPaper (question*)>
+	<!ATTLIST QuestionPaper totalQuestions CDATA #REQUIRED>
+	<!ELEMENT question (#PCDATA)>
+		<!ATTLIST question value CDATA #REQUIRED>
+		<!ATTLIST question option_1 CDATA #REQUIRED>
+		<!ATTLIST question option_2 CDATA #REQUIRED>
+		<!ATTLIST question option_3 CDATA #REQUIRED>
+		<!ATTLIST question option_4 CDATA #REQUIRED>
+		<!ATTLIST answer option_4 CDATA #REQUIRED>
+]>
+
+<QuestionPaper totalQuestions="32">
+
+	<question value="What is the output of the command 'man man'" option_1="man man: command not found" option_2="Manual page of man" option_3="Name of the current user" option_4="Manual of Manipulator" answer="Manual page of man"/>	
+	<question value="OpenSolaris is based on which system?" option_1="Linux" option_2="System V" option_3="BSD" option_4="DOS" answer="System V"/>	
+	<question value="What is the name of the .NET compatible runtime environment for Linux?" option_1="Mono" option_2="Duo" option_3="Trio" option_4="Quad" answer="Mono"/>	
+	<question value="Is Linux a System V compatible operating system?" option_1="Yes" option_2="No" option_3="Yes, provided SVR4 add-ons are installed" option_4="Only some distributions are compatible" answer="Yes"/>	
+	<question value="In C programming, you use printf() function to print a line. What is the command/script used to print a line in case of a shell script?" option_1="out" option_2="print" option_3="putline" option_4="echo" answer="echo"/>	
+	<question value="This is the distro that originated from Germany but is now bought over by Novell. It is doing a great job in making it easy for Windows users to switch over to Linux." option_1="Exim" option_2="Peoplesoft" option_3="Suse" option_4="Websphere" answer="Suse"/>	
+	<question value="To view a calander in the terminal of a GNU/Linux machine, we can use the command `cal`. How can you display the time on the terminal?" option_1="time" option_2="date" option_3="date +%t" option_4="date +%T" answer="date +%T"/>	
+	<question value="Suppose, you have a folder named 'test' with the following permission: drw-r--r-- What will be the output when you try to do a 'cd test' in the terminal?" option_1="bash: cd: test/: Permission denied" option_2="bash: cd: test/: You are not allowed to open this folder" option_3="bash: cd: test/: Test is not a directory" option_4="bash: cd: test/: Command not found" answer="bash: cd: test/: Permission denied"/>	
+	<question value="Which of the following is the most appropriate command to print the list of all processes currently running in your machine?" option_1="ps -a" option_2="ps -A" option_3="ps" option_4="bg" answer="ps -A"/>	
+	<question value="Which is the first process to be executed on a UNIX or a GNU/Linux machine?" option_1="init" option_2="getty" option_3="initrd" option_4="vmlinuz" answer="init"/>	
+	<question value="Which is a free and open-source software used for 3D modelling and game development?" option_1="Vue6" option_2="Blender" option_3="Maya 3D" option_4="3D Studio Max" answer="Blender"/>	
+	<question value="Which command would you use to clear the screen in the terminal?" option_1="clr" option_2="clrscr" option_3="cls" option_4="clear" answer="clear"/>	
+	<question value="Andrew Morton is famous for maintaining a certain part of the Linux operating system. What is the name of this part?" option_1="Hardware drivers" option_2="Memory Management" option_3="Kernel" option_4="Processor Management" answer="Kernel"/>	
+	<question value="Which is the latest theme provided by KDE 4.3?" option_1="Air" option_2="Storm" option_3="ClearLooks" option_4="Bluesphere" answer="Air"/>	
+	<question value="The Linux kernel is currently at which stable version?" option_1="2.2" option_2="2.4" option_3="2.6" option_4="2.8" answer="2.6"/>	
+	<question value="What type of interface has the fastest data transfer?" option_1="Parallel" option_2="SCSI" option_3="IDE" option_4="DirectCPU Bus" answer="SCSI"/>	
+	<question value="You have an existing hard drive on your IDE adapter. You are installing a second hard drive and want the first hard drive to still be the bootable hard drive. How should you configure the second hard drive?" option_1="Slave" option_2="Secondary" option_3="Master" option_4="Beta" answer="Slave"/>	
+	<question value="ESD is..." option_1="Electronic Surge Device" option_2="Ergonomic System Device" option_3="Electronic System Display" option_4="Electrostatic Discharge" answer="Electrostatic Discharge"/>	
+	<question value="A 3xx (xx are numbers) POST error code indicates a problem with..." option_1="Hard drive" option_2="Keyboard" option_3="System board" option_4="Monitor" answer="Keyboard"/>	
+	<question value="The maximum number of colors CGA will support is..." option_1="2" option_2="4" option_3="16" option_4="256" answer="4"/>	
+	<question value="Which would provide the fastest access to video files?" option_1="IDE" option_2="EIDE" option_3="Optical Drives" option_4="SCSI" answer="SCSI"/>	
+	<question value="DIP stands for..." option_1="Developer Induction Printer" option_2="Dual Inline Package" option_3="Durable Iclonic Plastic" option_4="Dual Independent Processors" answer="Dual Inline Package"/>	
+	<question value="In windows, to list the contents of a folder, you type `dir` at the command prompt. In a GNU/Linux or UNIX Operating System, how do you list files and directories?" option_1="list" option_2="show" option_3="ls" option_4="files" answer="ls"/>	
+	<question value="What does FSF stand for?" option_1="Free Software Free-society" option_2="Free Software Foundation" option_3="Future Software Foundation" option_4="Free Software Federation" answer="Free Software Foundation"/>	
+	<question value="The OpenDocument format is a file format for electronic office documents such as spreadsheets, charts, presentations and word processing documents originally developed by Sun Microsystems, Inc. Name the OpenDocument format equivalent to traditional .doc format?" option_1=".ods" option_2=".odf" option_3=".odp" option_4=".odt" answer=".odp"/>	
+	<question value="What does “root” means in GNU/Linux?" option_1="The parent directory for all files and directories" option_2="The system administrator" option_3="Both" option_4="None of these" answer="Both"/>	
+	<question value="He is the founder of the Debian distribution and Progeny Linux Systems, a commercial Linux company. He is currently working for Sun Microsystems." option_1="Larry Page" option_2="Jonathan Schwartz" option_3="Ian Murdock" option_4="Richard M Stallman" answer="Ian Murdock"/>	
+	<question value="What is the default file system in an Linux operating system?" option_1="FAT32" option_2="NTFS" option_3="ext3" option_4="zfs" answer="ext3"/>	
+	<question value="What does GPL stand for?" option_1="Global Public License" option_2="General Public License" option_3="Global Private License" option_4="General Private License" answer="General Public License"/>	
+	<question value="UNIX is a computer operating system originally developed in 1969 by a group of AT&amp;T employees at Bell Labs, including Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna. Using which one of following programming language was UNIX written?" option_1="C" option_2="Fortran" option_3="COBOL" option_4="BASIC" answer="C"/>	
+	<question value="JAVA: The keywords reserved but not used in the initial version of Java are: (A) union (B) const (C) inner (D) goto (E) boolean (F) synchronized" option_1="All of these" option_2="(C) and (E)" option_3="(B), (C) and (D)" option_4="(A), (C) and (E)" answer="(B), (C) and (D)"/>		
+	<question value="The maximum number of colors CGA will support is..." option_1="2" option_2="4" option_3="16" option_4="256" answer="4"/>	
+	
+</QuestionPaper>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE questionPaperDTD
+[
+	<!ELEMENT QuestionPaper (question*)>
+	<!ATTLIST QuestionPaper totalQuestions CDATA #REQUIRED>
+	<!ELEMENT question (#PCDATA)>
+		<!ATTLIST question value CDATA #REQUIRED>
+		<!ATTLIST question option_1 CDATA #REQUIRED>
+		<!ATTLIST question option_2 CDATA #REQUIRED>
+		<!ATTLIST question option_3 CDATA #REQUIRED>
+		<!ATTLIST question option_4 CDATA #REQUIRED>
+		<!ATTLIST answer option_4 CDATA #REQUIRED>
+]>
+
+<QuestionPaper totalQuestions="32">
+
+	<question value="What is the output of the command 'man man'" option_1="man man: command not found" option_2="Manual page of man" option_3="Name of the current user" option_4="Manual of Manipulator" answer="Manual page of man"/>	
+	<question value="OpenSolaris is based on which system?" option_1="Linux" option_2="System V" option_3="BSD" option_4="DOS" answer="System V"/>	
+	<question value="What is the name of the .NET compatible runtime environment for Linux?" option_1="Mono" option_2="Duo" option_3="Trio" option_4="Quad" answer="Mono"/>	
+	<question value="Is Linux a System V compatible operating system?" option_1="Yes" option_2="No" option_3="Yes, provided SVR4 add-ons are installed" option_4="Only some distributions are compatible" answer="Yes"/>	
+	<question value="In C programming, you use printf() function to print a line. What is the command/script used to print a line in case of a shell script?" option_1="out" option_2="print" option_3="putline" option_4="echo" answer="echo"/>	
+	<question value="This is the distro that originated from Germany but is now bought over by Novell. It is doing a great job in making it easy for Windows users to switch over to Linux." option_1="Exim" option_2="Peoplesoft" option_3="Suse" option_4="Websphere" answer="Suse"/>	
+	<question value="To view a calander in the terminal of a GNU/Linux machine, we can use the command `cal`. How can you display the time on the terminal?" option_1="time" option_2="date" option_3="date +%t" option_4="date +%T" answer="date +%T"/>	
+	<question value="Suppose, you have a folder named 'test' with the following permission: drw-r--r-- What will be the output when you try to do a 'cd test' in the terminal?" option_1="bash: cd: test/: Permission denied" option_2="bash: cd: test/: You are not allowed to open this folder" option_3="bash: cd: test/: Test is not a directory" option_4="bash: cd: test/: Command not found" answer="bash: cd: test/: Permission denied"/>	
+	<question value="Which of the following is the most appropriate command to print the list of all processes currently running in your machine?" option_1="ps -a" option_2="ps -A" option_3="ps" option_4="bg" answer="ps -A"/>	
+	<question value="Which is the first process to be executed on a UNIX or a GNU/Linux machine?" option_1="init" option_2="getty" option_3="initrd" option_4="vmlinuz" answer="init"/>	
+	<question value="Which is a free and open-source software used for 3D modelling and game development?" option_1="Vue6" option_2="Blender" option_3="Maya 3D" option_4="3D Studio Max" answer="Blender"/>	
+	<question value="Which command would you use to clear the screen in the terminal?" option_1="clr" option_2="clrscr" option_3="cls" option_4="clear" answer="clear"/>	
+	<question value="Andrew Morton is famous for maintaining a certain part of the Linux operating system. What is the name of this part?" option_1="Hardware drivers" option_2="Memory Management" option_3="Kernel" option_4="Processor Management" answer="Kernel"/>	
+	<question value="Which is the latest theme provided by KDE 4.3?" option_1="Air" option_2="Storm" option_3="ClearLooks" option_4="Bluesphere" answer="Air"/>	
+	<question value="The Linux kernel is currently at which stable version?" option_1="2.2" option_2="2.4" option_3="2.6" option_4="2.8" answer="2.6"/>	
+	<question value="Originally created as an entry to a Linux logo competition, the image of the mascot is the most commonly used icon for Linux, used in many flavors showing the mascot in one way or another. He is also used in many Linux games, which are usually look-alikes from other mainstream games. Name the mascot." option_1="Pingu the Penguin" option_2="Pidgin" option_3="Tux" option_4="Gentoo" answer="Tux"/>	
+	<question value="How can you tell that a particular ribbon cable should only be used to connect a floppy drive?" option_1="it's white" option_2="it has a red line along one edge" option_3="it's wider than all the other ribbon cables" option_4="it has a twist in it" answer="it has a twist in it"/>	
+	<question value="Which IRQ does the system timer commonly use? " option_1="0" option_2="1" option_3="5" option_4="10" answer="0"/>	
+	<question value="BIOS is an acronym for?" option_1="Bootstrap Initial Operating System" option_2="Basic Input Output Startup" option_3="Boot Initial Operating Startup" option_4="Basic Input Output System" answer="Basic Input Output System"/>	
+	<question value="What does FDISK do?" option_1="Performs low-level formatting of the hard drive" option_2="Fixes bad sectors on the hard drive" option_3="Recovers lost clusters on the hard drive" option_4="Creates partitions on the hard drive" answer="Creates partitions on the hard drive"/>	
+	<question value="What type of connector is used to plug a telephone line into a modem?" option_1="COM1" option_2="RJ-45" option_3="RJ-11" option_4="RJ-10" answer="RJ-11"/>	
+	<question value="Which IRQ does LPT1 commonly use? " option_1="1" option_2="4" option_3="5" option_4="7" answer="7"/>	
+	<question value="What is different between AT and ATX power supplies?" option_1="They are identical except for their shape" option_2="AT supplies use a single P1 power connector while ATX uses P8 and P9" option_3="AT power supplies run on 120V AC current while ATX uses 220V AC" option_4="AT supplies use P8 and P9 power connectors while ATX uses a single P1 connector" answer="AT supplies use P8 and P9 power connectors while ATX uses a single P1 connector"/>	
+	<question value="IRQ 6 is commonly assigned to..." option_1="Sound card" option_2="COM1" option_3="Floppy drive controller" option_4="LPT1" answer="Floppy drive controller"/>	
+	<question value="IRQ 1 is commonly assigned to..." option_1="It's usually open" option_2="System timer" option_3="Real time clock" option_4="Keyboard" answer="Keyboard"/>	
+	<question value="How much data will a high density (HD) floppy disk hold?" option_1="14.4 MB" option_2="124 KB" option_3="640 KB" option_4="720 KB" answer="1.44 MB"/>	
+	<question value="Which IRQ does the hard disk controller commonly use?" option_1="0" option_2="14" option_3="1" option_4="3" answer="14"/>	
+	<question value="What does POST stand for?" option_1="Printer Online Standard Test" option_2="Power On Self Test" option_3="Power Off Standard Test" option_4="Preferred Operating System Timing" answer="Power On Self Test"/>	
+	<question value="WAN stands for..." option_1="Wide Area Network" option_2="World Area Network" option_3="Wide Artificial Network" option_4="Wide Access Network" answer="Wide Area Network"/>	
+	<question value="Which processor has a 32-bit data bus and a 24-bit address bus?" option_1="80286" option_2="80386DX" option_3="80486SX" option_4="80386SX" answer="80386SX"/>	
+	<question value="The ISA bus has a bus width of..." option_1="16-bit" option_2="8-bit" option_3="8 MHz" option_4="4.77 MHz" answer="16-bit"/>	
+	<question value="JAVA: The keywords reserved but not used in the initial version of Java are: (A) union (B) const (C) inner (D) goto (E) boolean (F) synchronized" option_1="All of these" option_2="(C) and (E)" option_3="(B), (C) and (D)" option_4="(A), (C) and (E)" answer="(B), (C) and (D)"/>		
+	
+</QuestionPaper>

@@ -1,0 +1,9 @@
+body { color: #FFFFFF; font-family: 'Arial'; background-color: #161616; }
+#txt { border:none; background-color: #161616; font-family:Arial; color: #3399FF; font-size:16pt; font-weight:bold; border-right-color:#FFFFFF; }
+h1 { font-family: 'Arial'; font-size: 24pt; color: #05A5DF; }
+h2 { font-family: 'Arial'; font-size: 18pt; color: #3399FF; }
+h3 { font-family: 'Arial'; font-size: 12pt; color: #66CCFF; }
+p.error { font-family: 'Arial'; font-size: 18pt; color: #FF6666; font-weight: bold; }
+p.question { font-family: 'Arial'; font-size: 14pt; color: #9999FF; font-weight: bold; }
+p { font-family: 'Arial'; font-size: 12pt; color: #FFFFF; }
+p.important_notice { font-family: 'Arial'; font-size: 12pt; color: #FF6666; font-weight: bold; }

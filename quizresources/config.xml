@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE configDTD
+[
+	<!ELEMENT ConfigurationVariables (variable*)>
+
+	<!ELEMENT variable (#PCDATA)>
+		<!ATTLIST variable id ID #REQUIRED>
+		<!ATTLIST variable value CDATA #REQUIRED>
+		<!ATTLIST variable LOG_FILE_SIZE_LIMIT CDATA #IMPLIED>
+		<!ATTLIST variable LOG_FILE_COUNT CDATA #IMPLIED>
+]>
+
+<ConfigurationVariables>
+	<variable id="SERVER_NAME" value="http://172.16.2.173:8080" />
+	<variable id="QUESTIONS_XML_FILE_LOCATION" value="./quizresources/questionPaper" />
+	<variable id="TEAMS_XML_FILE_LOCATION" value="./quizresources/teamDetails.xml" />
+	<variable id="ACTIVATION_CODES_XML_FILE_LOCATION" value="./quizresources/activationCodes.xml" />
+	<variable id="INFO_LOG_FILE_LOCATION" value="./quizresources/info.log" LOG_FILE_SIZE_LIMIT="134217728" LOG_FILE_COUNT="32" />
+	<variable id="MIN_FIELD_LENGTH" value="3" />
+	<variable id="ACTIVATION_CODE_LENGTH" value="8" />
+	<variable id="QUIZ_DURATION_IN_MINUTES" value="15" />
+	<variable id="MAX_QUESTIONS_DATABASE_FILES" value="8" />
+</ConfigurationVariables>

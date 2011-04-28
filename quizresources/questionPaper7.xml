@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE questionPaperDTD
+[
+	<!ELEMENT QuestionPaper (question*)>
+	<!ATTLIST QuestionPaper totalQuestions CDATA #REQUIRED>
+	<!ELEMENT question (#PCDATA)>
+		<!ATTLIST question value CDATA #REQUIRED>
+		<!ATTLIST question option_1 CDATA #REQUIRED>
+		<!ATTLIST question option_2 CDATA #REQUIRED>
+		<!ATTLIST question option_3 CDATA #REQUIRED>
+		<!ATTLIST question option_4 CDATA #REQUIRED>
+		<!ATTLIST answer option_4 CDATA #REQUIRED>
+]>
+
+<QuestionPaper totalQuestions="32">
+
+	<question value="The default web browser for KDE 4 is..." option_1="Dolphin" option_2="Konqueror" option_3="Firefox" option_4="Lynx" answer="Konqueror"/>	
+	<question value="The default file manager for KDE 4 is..." option_1="Dolphin" option_2="Konqueror" option_3="Firefox" option_4="Lynx" answer="Dolphin"/>	
+	<question value="In a layman's terms, what is CUPS?" option_1="A Print System" option_2="A Panel Configuration System" option_3="A utility to Configure UNIX Proxy Settings" option_4="A UPS Power-management System" answer="A Print System"/>	
+	<question value="Which of the following desktop environment does not use GTK+ as its widget toolkit?" option_1="GNOME" option_2="KDE" option_3="Xfce" option_4="LXDE" answer="KDE"/>	
+	<question value="In UNIX, which of the following signals does not cause a process to terminate with a core dump?" option_1="SIGABRT" option_2="SIGILL" option_3="SIGFPE" option_4="SIGSEGV" answer="SIGABRT"/>	
+	<question value="Pick the odd one out..." option_1="Nautilus" option_2="Thunar" option_3="Dolphin" option_4="Wireshark" answer="Wireshark"/>	
+	<question value="Sun Microsystems, Inc. was recently acquired by?" option_1="IBM" option_2="Oracle" option_3="SAP" option_4="Red Hat, Inc." answer="Oracle"/>	
+	<question value="The Fedora Project is sponsored by...?" option_1="Sun" option_2="Oracle" option_3="Red Hat" option_4="Not sponsored, it is community-driven" answer="Red Hat"/>	
+	<question value="Which of the following X window managers does not have an in-built theme manager?" option_1="Enlightenment" option_2="IceWM" option_3="Matchbox" option_4="FVWM" answer="FVWM"/>	
+	<question value="In which desktop environment would you see OpenGL being used?" option_1="GNOME" option_2="KDE" option_3="Compiz" option_4="Enlightenment" answer="Compiz"/>	
+	<question value="The X window manager of GNOME is..." option_1="Metacity" option_2="GnomeWM" option_3="Beryl" option_4="Oroborus" answer="Metacity"/>	
+	<question value="This network file system is a popular freeware program that allows end-users to access and use files, printers, and other commonly shared resources on a company's intranet or on the Internet." option_1="Samba" option_2="Lisp" option_3="Tux" option_4="Darwin" answer="Samba"/>	
+	<question value="is the consequence of executing the command `rm -rf /`?" option_1="Restart the operating system" option_2="Wipe out every file on your system" option_3="Shut down the system" option_4="Pause the system" answer="Wipe out every file on your system"/>	
+	<question value="Generally, on a GNOME desktop, what is the result when you press the key combinations “Control + Alt + Backspace”?" option_1="System restart" option_2="You will get back your login prompt" option_3="Displays the options “Shutdown, Restart, Hybernate”" option_4="Does nothing" answer="You will get back your login prompt"/>	
+	<question value="Which binary/libc function enables seamless execution of 64 and 32 bit binaries on a 64-bit OpenSolaris machine?" option_1="isaexec" option_2="ps" option_3="trace" option_4="exec" answer="isaexec"/>	
+	<question value="Which of the following is not Free and OpenSource Virtualisation software?" option_1="VirtualBox" option_2="VMWare" option_3="KVM" option_4="Xen" answer="VMWare"/>	
+	<question value="How can you tell that a particular ribbon cable should only be used to connect a floppy drive?" option_1="it's white" option_2="it has a red line along one edge" option_3="it's wider than all the other ribbon cables" option_4="it has a twist in it" answer="it has a twist in it"/>	
+	<question value="Which IRQ does the system timer commonly use? " option_1="0" option_2="1" option_3="5" option_4="10" answer="0"/>	
+	<question value="BIOS is an acronym for?" option_1="Bootstrap Initial Operating System" option_2="Basic Input Output Startup" option_3="Boot Initial Operating Startup" option_4="Basic Input Output System" answer="Basic Input Output System"/>	
+	<question value="What does FDISK do?" option_1="Performs low-level formatting of the hard drive" option_2="Fixes bad sectors on the hard drive" option_3="Recovers lost clusters on the hard drive" option_4="Creates partitions on the hard drive" answer="Creates partitions on the hard drive"/>	
+	<question value="What type of connector is used to plug a telephone line into a modem?" option_1="COM1" option_2="RJ-45" option_3="RJ-11" option_4="RJ-10" answer="RJ-11"/>	
+	<question value="Which IRQ does LPT1 commonly use? " option_1="1" option_2="4" option_3="5" option_4="7" answer="7"/>	
+	<question value="What is different between AT and ATX power supplies?" option_1="They are identical except for their shape" option_2="AT supplies use a single P1 power connector while ATX uses P8 and P9" option_3="AT power supplies run on 120V AC current while ATX uses 220V AC" option_4="AT supplies use P8 and P9 power connectors while ATX uses a single P1 connector" answer="AT supplies use P8 and P9 power connectors while ATX uses a single P1 connector"/>	
+	<question value="IRQ 6 is commonly assigned to..." option_1="Sound card" option_2="COM1" option_3="Floppy drive controller" option_4="LPT1" answer="Floppy drive controller"/>	
+	<question value="IRQ 1 is commonly assigned to..." option_1="It's usually open" option_2="System timer" option_3="Real time clock" option_4="Keyboard" answer="Keyboard"/>	
+	<question value="How much data will a high density (HD) floppy disk hold?" option_1="14.4 MB" option_2="124 KB" option_3="640 KB" option_4="720 KB" answer="1.44 MB"/>	
+	<question value="Which IRQ does the hard disk controller commonly use?" option_1="0" option_2="14" option_3="1" option_4="3" answer="14"/>	
+	<question value="What does POST stand for?" option_1="Printer Online Standard Test" option_2="Power On Self Test" option_3="Power Off Standard Test" option_4="Preferred Operating System Timing" answer="Power On Self Test"/>	
+	<question value="WAN stands for..." option_1="Wide Area Network" option_2="World Area Network" option_3="Wide Artificial Network" option_4="Wide Access Network" answer="Wide Area Network"/>	
+	<question value="Which processor has a 32-bit data bus and a 24-bit address bus?" option_1="80286" option_2="80386DX" option_3="80486SX" option_4="80386SX" answer="80386SX"/>	
+	<question value="The ISA bus has a bus width of..." option_1="16-bit" option_2="8-bit" option_3="8 MHz" option_4="4.77 MHz" answer="16-bit"/>	
+	<question value="JAVA: The keywords reserved but not used in the initial version of Java are: (A) union (B) const (C) inner (D) goto (E) boolean (F) synchronized" option_1="All of these" option_2="(C) and (E)" option_3="(B), (C) and (D)" option_4="(A), (C) and (E)" answer="(B), (C) and (D)"/>		
+	
+</QuestionPaper>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!-- @author Rishabh Rao -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Sun Mircrosystems, Inc. | JSSATE OSUM | open-source quiz</title>
+		<link  type="text/css" rel="stylesheet" href="./resources/quizStyle.css" />
+		<!-- <script type="text/javascript" src="qfv.js"></script> -->
+	</head>
+	
+	<body ><center>
+		<script type="text/javascript">
+			function validateQuizRegistrationForm()
+			{
+
+				
+				var status = true;
+
+				var teamName = document.getElementById("teamName").value;
+				var activationCode = document.getElementById("activationCode").value;
+
+				var userName_1 = document.getElementById("userName_1").value;
+				var usn_1 = document.getElementById("usn_1").value;
+				var email_1 = document.getElementById("email_1").value;
+				var mobile_1 = document.getElementById("mobile_1").value;
+
+				var userName_2 = document.getElementById("userName_2").value;
+				var usn_2 = document.getElementById("usn_2").value;
+				var email_2 = document.getElementById("email_2").value;
+				var mobile_2 = document.getElementById("mobile_2").value;
+
+				var msg = "Oops, we have some problems...\n\n";
+
+				if(teamName.length &lt; 4)
+				{
+					msg += "Team name must be at least 3 characters long.\n";
+					status = false;
+				}
+
+				if(activationCode.search(/[\w\.]{8}/))
+				{
+					msg += "Activation code must be exactly 8 characters long and can contain only alphanumeric characters.\n";
+					status = false;
+				}
+
+				if(userName_1.length &lt; 4)
+				{
+					msg += "Member 1's name must be at least 3 characters long.\n";
+					status = false;
+				}
+
+				if(usn_1.search(/1[Jj][Ss]0\d[Ii][Ss]\d{3}/))
+				{
+					msg += "Member 1's USN is not in the proper format.\n";
+					status = false;
+				}
+
+				if(email_1.search(/.+@.+\..+/))
+				{
+					msg += "Member 1's email is not in the proper format.\n";
+					status = false;
+				}
+
+				if(mobile_1.search(/\d{10}/))
+				{
+					msg += "Member 1's mobile is not in the proper format.\n";
+					status = false;
+				}
+
+				if(userName_2.length &lt; 4)
+				{
+					msg += "Member 2's name must be at least 3 characters long.\n";
+					status = false;
+				}
+
+				if(usn_2.search(/1[Jj][Ss]0\d[Ii][Ss]\d{3}/))
+				{
+					msg += "Member 2's USN is not in the proper format.\n";
+					status = false;
+				}
+
+				if(email_2.search(/.+@.+\..+/))
+				{
+					msg += "Member 2's email is not in the proper format.\n";
+					status = false;
+				}
+
+				if(mobile_2.search(/\d{10}/))
+				{
+					msg += "Member 2's mobile is not in the proper format.\n";
+					status = false;
+				}
+
+				if(usn_1 == usn_2 &amp;&amp; usn_1.length != 0 &amp;&amp; usn_2.length != 0)
+				{
+					msg += "Both member 1 and member 2 cannot have the same USN!\n";
+				}
+
+				if(status == false)
+				{
+					alert(msg + "\n\nPlease correct the above problems and try again!");
+				}
+
+				return status;
+			}
+		
+		</script>
+	
+		<table border="0" width="800">
+			<tr>
+				<td><img border="0" src="./resources/quiz_title.jpg" width="800" height="225" /></td>
+			</tr>
+			<tr align="left">
+				<td>
+				
+					<br /><h2>Welcome</h2>		
+					<p>JSS Academy of Technical Education, Bangalore Open Source University Meetup (OSUM) (pronounced "awesome") with support from <b>Sun Microsystems, Inc.</b> presents the <b>open-source quiz</b>.</p>
+					<p>This quiz is designed to test your understanding of some of the open-source technologies. Take this quiz to enrich your knowledge about the world of open-source!</p>
+					<p>
+						What's more, there're loads of goodies to be won including:
+						<ul>
+							<li>First Prize: a limited-edition <b>"Innovate on OpenSolaris"</b> travel mug</li>
+							<li>Subsequent prizes:</li>
+							<ul>
+								<li>Sun Microsystems, Inc. pens and key-chains</li>
+								<li>a few limited-edition OpenSolaris wrist-bands and OSUM.SUN.COM - CHANGE (Y)OUR WORLD wrist-bands</li>
+								<li>NetBeans 6.5 DVDs</li>
+							</ul>
+						</ul>
+					<p class="important_notice">This quiz is open to all the students, who are currently studying in Information Science &amp; Engineering branch of JSS Academy of Technical Education, Bangalore, only.</p>
+					<h6>As this is our first time, we're purposely conducting this quiz on a small scale. Once this quiz goes on well, we'll surely conduct another one for the whole college. Other branches, sorry, but keep an eye out for the next quiz!</h6>
+					</p>
+					<p>So, what're you waiting for? Don't miss this opportunity to be a part of the greatest revolution the world has ever seen - the open-source revolution!</p>
+					
+					<br /><h2>Many Thanks</h2>
+					<p>We're thankful to Sun Microsystems, Inc. for giving us such a wonderful opportunity and supporting us.</p>
+					<p>We really thank all the Sun OSUM team members (worldwide, India and South-India region) for their support.</p>
+					<p>We thank Ganesh Sir and Rajesh Sir from Sun Microsystems, Inc. (Bangalore) for helping us and providing us with the prizes.</p>
+					<p>Further, we'd like to thank Mohamed Sanaulla Sir from National Institute of Technology, Karnataka for his support and guidance.</p>					
+					<p>We also thank Mr. Nischal E Rao and Mr. Avinash Joshi for their support.</p>
+										
+					<br /><h2>Created by...</h2>
+					
+					<p><b>Rishabh Rao </b>(rishabhsrao @ gmail . com | +919886593393)</p>
+					<p><b>Suraj Baliga</b></p>
+					<p><b>Narendra G S</b></p>
+					<p><b>Sagar S Hirapur</b></p>
+					<p><b>Sharanbasava S</b></p>
+					
+					
+								
+					<br /><h2>Special Thanks To...</h2>
+					<b>
+					<p>Karunya D S</p>
+					<p>Harshit Kohli</p>
+					<p>Abhishek K N</p>
+					</b>
+
+					<br /><h2>Let's get started</h2>
+					<p>
+						So, all set to get started? Alright then, all you have to do is...
+						<ol>
+							<li>Grab your friend and form a team of 2 (two) members.</li>
+							<li>Go to <a href="http://osum.sun.com/"><font color="#3399FF"><u>Open-Source University Meetup</u></font></a> website and register yourselves! It's a website for student developers worldwide (like you!) You can share, learn, collaraborate and innovate.</li>
+							<li>Next, join our <a href="http://osum.sun.com/group/jssate/"><font color="#3399FF"><u>JSSATE OSUM community</u></font></a> and post a reply to the <b>open-source quiz</b> thread proving your registration.
+							<p class="important_notice">Registration on the OSUM website and our college community is mandatory to qualify as a winner.</p></li>
+							<li>Register your details with your class rep and obtain the activation code.</li>
+							<li>Use the form below to register your team once again online and take the quiz.</li>
+						</ol>
+					</p>
+					
+					<br /><h2>Register Yourselves</h2>
+					<form name="registrationForm" action="http://172.16.2.173:8080/Quiz/OSQuizLogin" method="POST" onsubmit="return (validateQuizRegistrationForm());">
+						<table border="0" width="800">
+							<tr>
+								<td align="right">
+									<p>Team Name: </p>
+								</td>
+								<td>
+									<input type="text" id="teamName" name="teamName" size="25" maxlength="15" />
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<p>Activation Code: </p>
+								</td>
+								<td>
+									<input type="text" id="activationCode" name="activationCode" size="25" maxlength="8" />
+								</td>
+							</tr>
+							<tr>
+								<td><hr /></td><td><hr /></td>
+							</tr>
+							<tr>
+								<td align="right">
+									<p>Member 1's Name: </p>       
+								</td>
+								<td>
+									<input type="text" id="userName_1" name="userName_1" size="25" maxlength="15" />
+								</td>							
+							</tr>
+							<tr>
+								<td align="right">
+									<p>Member 1's USN: </p>
+								</td>
+								<td>
+									<input type="text" id="usn_1" name="usn_1" size="25" maxlength="10" />
+								</td>							
+							</tr>							
+							<tr>
+								<td align="right">
+									<p>Member 1's Semester: </p>
+								</td>
+								<td>
+									<select name="sem_1">
+										<option>1</option>	<option>3</option>	<option>5</option>	<option>7</option>
+									</select>
+								</td>							
+							</tr>
+							
+							<tr>
+								<td align="right">
+									<p>Member 1's Branch: </p>
+								</td>
+								<td>
+									<b>Information Science &amp; Engineering</b>
+								</td>							
+							</tr>	
+							
+							<tr>
+								<td align="right">
+									<p>Member 1's Email: </p>
+								</td>
+								<td>
+									<input type="text" id="email_1" name="email_1" size="25" maxlength="30" />
+								</td>							
+							</tr>							
+							<tr>
+								<td align="right">
+									<p>Member 1's Mobile: </p>
+								</td>
+								<td>
+									<input type="text" id="mobile_1" name="mobile_1" size="25" maxlength="10" />
+								</td>							
+							</tr>							
+							
+							<td><hr /></td><td><hr /></td>
+							
+							<tr>
+								<td align="right">
+									<p>Member 2's Name: </p>
+								</td>
+								<td>
+									<input type="text" id="userName_2" name="userName_2" size="25" maxlength="15" />
+								</td>							
+							</tr>
+							<tr>
+								<td align="right">
+									<p>Member 2's USN: </p>
+								</td>
+								<td>
+									<input type="text" id="usn_2" name="usn_2" size="25" maxlength="10" />
+								</td>							
+							</tr>							
+							<tr>
+								<td align="right">
+									<p>Member 2's Semester: </p>
+								</td>
+								<td>
+									<select name="sem_2">
+										<option>1</option>	<option>3</option>	<option>5</option>	<option>7</option>
+									</select>
+								</td>							
+							</tr>	
+							
+							<tr>
+								<td align="right">
+									<p>Member 1's Branch: </p>
+								</td>
+								<td>
+									<b>Information Science &amp; Engineering</b>
+								</td>							
+							</tr>	
+								
+							<tr>
+								<td align="right">
+									<p>Member 2's Email: </p>
+								</td>
+								<td>
+									<input type="text" id="email_2" name="email_2" size="25" maxlength="30" />
+								</td>							
+							</tr>							
+							<tr>
+								<td align="right">
+									<p>Member 2's Mobile: </p>
+								</td>
+								<td>
+									<input type="text" id="mobile_2" name="mobile_2" size="25" maxlength="10" />
+								</td>							
+							</tr>
+							
+							<tr>
+								<td><hr /></td><td><hr /></td>
+							</tr>
+							
+							<tr>
+								<td colspan="2">
+									<p>
+										Read these rules carefully before taking the quiz...<br />
+										<ol>
+											<li>The quiz will start once you press the <b>Submit</b> button below.</li>
+											
+											<br /><li>You have exactly <b>15 minutes</b> to complete the quiz. Your time will start immediately when you see the question paper. When the time is up, your answers will be automatically submitted (provided JavaScript is enabled) or else you must see to it that you submit the answers before the time is up.</li>
+											<br /><li>Be sure you're using a JavaScript-enabled browser and you've enabled JavaScript.</li>
+											<br /><li>We will show a count-down timer on your screen, but do not rely on it, use your own timer/stop-watches for keeping time. Most mobile phones are equipped with a timer/stop-watch; use it.</li>
+											<br /><li>Right-click and <b>Copy the activation code above</b>, you'll need to enter it again on the next page.</li>
+											<br /><li>If you <b>submit the wrong activation code on the next page</b>, your activation code will be deactivated.</li>
+											<br /><li>If you submit the answers <b>after</b> the alotted time duration, you'll be disqualified.</li>
+											<br /><li>If the above information is found to be <b>inconsistent or wrong</b>, you'll be disqualified.</li>
+											<br /><li>The decision of the organizers is <b>final</b>. No further communication will be entertained.</li>
+											<br /><li>Do not use your browser's <b>Back</b> button (unless instructed to do so by us) or mess around with the application; your activation code <b>will</b> be deactivated.</li>
+											<br /><li>In case of a tie, the team that submitted the answers in the smallest amount of time, will be considered as better.</li>
+											<br /><li>Clicking on the <b>Submit</b> button will be deemed as your <b>acceptance</b> of our rules.</li>					
+										</ol>
+									</p>
+								</td>
+							</tr>
+							
+							<tr>
+								<td align="right">
+									<input type="reset" value="Clear" onClick="sayHi()"/>
+								</td>
+								<td align="left">
+									<input type="submit" value="Submit" />
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>	
+			</tr>
+		</table>
+	</center></body>
+</html>
+
